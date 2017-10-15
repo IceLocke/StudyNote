@@ -7,11 +7,8 @@ from app.note import Note
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(16)
 
-print(os.getcwd())
-
 notes = []
 DATABASE = 'note.db'
-
 
 # 获取在 SQLite 中的数据
 def get_note():

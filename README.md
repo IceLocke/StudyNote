@@ -11,3 +11,7 @@
 ## 前端框架
 1. Bootstrap
 2. jQuery
+
+## 发布版本
+*Ver 0.0.1* 最早版本，仅仅有使用 Markdown 发布笔记功能  
+*Ver 0.0.2* 使用 SQLite 存储笔记
