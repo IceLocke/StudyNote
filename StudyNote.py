@@ -1,7 +1,7 @@
 import os
 import markdown
 import sqlite3
-from flask import Flask, render_template, request, flash, redirect, url_for, g
+from flask import Flask, render_template, request, flash, redirect, url_for, g, abort
 from app.note import Note
 
 app = Flask(__name__)
@@ -17,6 +17,17 @@ def get_note():
     for row in cur.fetchall():
         new_notes.append(Note(row[0], row[1]))
     return new_notes
+
+
+# 获取单一的 Note
+def get_single_note(name):
+    cur = g.db.execute('SELECT * FROM Notes WHERE note_title = ?', (name,))
+    try:
+        got_note = cur.fetchall()[0]
+    except():
+        return None
+
+    return Note(got_note[0], got_note[1])
 
 
 # 往 SQLite 中插入 Note
@@ -66,6 +77,17 @@ def note():
             flash('Title already exists!')
             redirect(url_for('note'))
     return render_template('note.html', notes=reversed(notes))
+
+
+# 单个Note
+@app.route('/notepage/<name>')
+def notepage(name):
+    single_note = get_single_note(name)
+    if single_note is not None:
+        return render_template('notepage.html', note=single_note)
+    else:
+        abort(404)
+    return
 
 
 # 程序入口
