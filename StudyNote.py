@@ -80,7 +80,7 @@ def note():
 
 
 # 单个Note
-@app.route('/notepage/<name>')
+@app.route('/note/<name>')
 def notepage(name):
     single_note = get_single_note(name)
     if single_note is not None:
