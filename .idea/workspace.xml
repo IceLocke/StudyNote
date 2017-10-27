@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cde56f1-81eb-4cfc-9dc1-bf58299f06a3" name="Default" comment="" />
+    <list default="true" id="3cde56f1-81eb-4cfc-9dc1-bf58299f06a3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note.db" afterPath="$PROJECT_DIR$/note.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudyNote.py" afterPath="$PROJECT_DIR$/StudyNote.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/note.html" afterPath="$PROJECT_DIR$/templates/note.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/notepage.html" afterPath="$PROJECT_DIR$/templates/notepage.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,16 +32,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudyNote.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StudyNote.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StudyNote.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="92" column="6" lean-forward="true" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+            <state relative-caret-position="416">
+              <caret line="99" column="29" lean-forward="true" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-                <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-                <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+                <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+                <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+                <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+                <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -74,14 +81,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notepage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notepage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/notepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="433">
+              <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,11 +94,9 @@
       <file leaf-file-name="note.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/note.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="55" column="18" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="55" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,11 +197,19 @@
               <item name="StudyNote" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StudyNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="StudyNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.2 (/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,9 +330,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -330,9 +340,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -360,9 +371,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -380,9 +389,10 @@
           <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -402,9 +412,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -422,9 +430,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -460,9 +469,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -472,9 +479,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -510,9 +518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -522,9 +528,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -549,9 +556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -561,9 +566,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -588,9 +594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -600,9 +604,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -637,9 +642,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -649,9 +652,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -683,9 +687,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -695,9 +697,10 @@
           <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -722,9 +725,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -753,6 +754,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/notepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -763,33 +772,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/note.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="55" column="18" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="55" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StudyNote.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="92" column="6" lean-forward="true" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+        <state relative-caret-position="416">
+          <caret line="99" column="29" lean-forward="true" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1508157408000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
-            <marker date="1508157408000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/notepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1509108640000" expanded="true" signature="329:348" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="516:556" ph="SELECT * FRO... Notes" />
+            <marker date="1509108640000" expanded="true" signature="756:814" ph="INSERT INTO Notes... " />
+            <marker date="1509108640000" expanded="true" signature="934:972" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>

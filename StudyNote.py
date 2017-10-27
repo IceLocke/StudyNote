@@ -36,6 +36,12 @@ def append_note(n_note):
     g.db.commit()
 
 
+# 删除 SQLite 中的 Note
+def delete_note(notename):
+    g.db.execute('DELETE FROM Notes WHERE note_title = ?', (notename,))
+    g.db.commit()
+
+
 # 连接数据库
 def connect_db():
     return sqlite3.connect(DATABASE)
@@ -80,14 +86,19 @@ def note():
 
 
 # 单个Note
-@app.route('/note/<name>')
+@app.route('/note/<name>', methods=['GET', 'POST'])
 def notepage(name):
-    single_note = get_single_note(name)
-    if single_note is not None:
-        return render_template('notepage.html', note=single_note)
-    else:
-        abort(404)
-    return
+    if request.method == 'GET':
+        single_note = get_single_note(name)
+        if single_note is not None:
+            return render_template('notepage.html', note=single_note)
+        else:
+            abort(404)
+        return
+    elif request.method == 'POST':
+        notename = request.form['DELETE']
+        delete_note(notename)
+        return redirect(url_for('note'))
 
 
 # 程序入口

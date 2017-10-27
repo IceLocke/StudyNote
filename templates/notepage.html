@@ -26,6 +26,13 @@
                         {{ note.passage|safe }}
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-sm-offset-10 col-sm-2 col-xs-offset-8 col-xs-4">
+                        <form method="post">
+                            <button type="submit" class="btn btn-danger" value="{{ note.title }}" name="DELETE">DELETE</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
         <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
