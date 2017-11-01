@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cde56f1-81eb-4cfc-9dc1-bf58299f06a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/noteedit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note.db" afterPath="$PROJECT_DIR$/note.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudyNote.py" afterPath="$PROJECT_DIR$/StudyNote.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/notepage.html" afterPath="$PROJECT_DIR$/templates/notepage.html" />
-    </list>
+    <list default="true" id="3cde56f1-81eb-4cfc-9dc1-bf58299f06a3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
