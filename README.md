@@ -23,7 +23,7 @@
 - 用户，每个用户有单独的笔记，可以类似于 Git 的 fork 功能
 
 ## 使用方法
-首先，确保你有 Python 解释器以及 Python 的包管理工具 pip。
+首先，确保你有 Python 解释器、Python 的包管理工具 pip 以及 Git。
 然后在命令行输入下面的命令：
 ```
   git clone https://www.github.com/irook/StudyNote
@@ -36,4 +36,5 @@
 ```
   localhost:3000
 ```
-即可访问网站。
+即可访问网站。  
+如果需要变更端口，更改`StudyNote.py`第144行的 port=?，?为你要的端口号;)
