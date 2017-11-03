@@ -32,8 +32,9 @@
   cd StudyNote
   pip install flask
   pip install markdown
-  pytho StudyNote.py
+  python StudyNote.py
 ```
+**如果你的系统有 Python 3 以下版本的解释器，将`python StudyNote.py`更换为`python3 StudyNote.py`。**
 然后在浏览器地址栏输入：
 ```
   localhost:3000
