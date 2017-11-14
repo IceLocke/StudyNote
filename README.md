@@ -1,10 +1,12 @@
 # StudyNote
 轻量级笔记 Web APP，移动端支持。目前自己也在使用，用于学习英语以及其他一部分文化课。  
-Fork plz ;)
+Lightweight note web app, support mobile planform. Now I'm using it now, I used it to study English and some other subjects in my school ;)
 
 ## 简介
-* 一个简单的记事本 Web 应用，练手项目，现在滋磁 Markdown。
-* 目前写本项目花费时间：2h。
+* 一个简单的记事本 Web 应用，练手项目，现在滋磁 Markdown。  
+A simple note web app, just for practice. Support Markdown.  
+* 目前写本项目花费时间：2h。  
+I have worked for it for 2hr.  
 
 ## 运行环境
 1. Python 3.6.2
@@ -17,8 +19,11 @@ Fork plz ;)
 
 ## 发布版本
 *Ver 0.0.1* 最早版本，仅仅有使用 Markdown 发布笔记功能  
+The earliest version, can only post a note by markdown.  
 *Ver 0.0.2* 使用 SQLite 存储笔记  
+Use SQLite to save the notes.  
 *Ver 0.0.3* 支持修改以及删除笔记，优化性能  
+Support to edit and delete notes.
 *Ver 0.0.4* **优·化·性·能**，在自己家里服务器跑了一会儿，发现有时候`get`和`post`很慢，就再优化了一下
 
 ## 预计加入功能
