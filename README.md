@@ -23,7 +23,7 @@ The earliest version, can only post a note by markdown.
 *Ver 0.0.2* 使用 SQLite 存储笔记  
 Use SQLite to save the notes.  
 *Ver 0.0.3* 支持修改以及删除笔记，优化性能  
-Support to edit and delete notes.
+Support to edit and delete notes.  
 *Ver 0.0.4* **优·化·性·能**，在自己家里服务器跑了一会儿，发现有时候`get`和`post`很慢，就再优化了一下
 
 ## 预计加入功能
