@@ -2,7 +2,6 @@ import os
 import markdown
 import sqlite3
 from flask import Flask, render_template, request, flash, redirect, url_for, g, abort
-from app.note import Note
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(16)
@@ -10,6 +9,12 @@ app.config['SECRET_KEY'] = os.urandom(16)
 notes = []
 DATABASE = 'note.db'
 
+
+class Note:
+    def __init__(self, title, passage):
+        self.title = title
+        self.passage = passage
+        
 
 # 获取在 SQLite 中的数据
 def get_note():
